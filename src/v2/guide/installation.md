@@ -40,8 +40,14 @@ Vue.js 不支持 IE8 及其以下版本，因为 Vue.js 使用了 IE8 不能模�
 在用 Vue.js 构建大型应用时推荐使用 NPM 安装， NPM 能很好地和诸如 [Webpack](https://webpack.js.org/) 或 [Browserify](http://browserify.org/) 模块打包器配合使用。 Vue.js 也提供配套工具来开发[单文件组件](single-file-components.html)。
 
 ``` bash
-# 最新稳定版
+# 安装最新稳定版
 $ npm install vue
+```
+``` bash
+# 更新稳定版
+$ npm update vue
+# 更新vue-loader插件(根据实际情况)
+$ npm update vue-loader
 ```
 
 ## 命令行工具 (CLI)
